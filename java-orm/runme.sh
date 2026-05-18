@@ -1,0 +1,2 @@
+#java -server -Xms64m -Xmx2g -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=40 -XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -jar ./build/libs/java-orm-0.0.1-SNAPSHOT.jar
+java -server -Xms64m -Xmx256m -Xss512k -XX:MaxMetaspaceSize=96m -XX:+AlwaysPreTouch -jar ./build/libs/java-orm-0.0.1-SNAPSHOT.jar

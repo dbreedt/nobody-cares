@@ -1,0 +1,21 @@
+{
+  "db_clients": [
+    {
+      "name": "default",
+      "rdbms": "postgresql",
+      "host": "127.0.0.1",
+      "port": 5432,
+      "dbname": "test",
+      "user": "test",
+      "passwd": "test",
+      "connection_number": 5
+    }
+  ],
+  "app": {
+    "number_of_threads": 5,
+    "enable_keepalive": true,
+    "keepalive_timeout": 60,
+    "max_connections": 10000,
+    "max_connections_per_ip": 0
+  }
+}
